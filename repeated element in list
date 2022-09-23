@@ -1,0 +1,5 @@
+#python
+t=(2, 4, 5, 6, 2, 3, 4, 4, 7)
+c=int(input())
+print(t)
+print(t.count(c))
