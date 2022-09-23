@@ -1,0 +1,11 @@
+#python
+string=input()
+ccount=0
+dcount=0
+for i in string:
+    if (i>='a' and i<='z') or (i>='A' and i<='Z') :
+        ccount=ccount+1
+    elif i>='0' and i<='9':
+        dcount=dcount+1
+print("Characters =",ccount)
+print("Digits =",dcount)
