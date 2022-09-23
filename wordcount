@@ -1,5 +1,0 @@
-#python
-word=input()
-temp=word.split()
-print(len(temp))
-print(len(word))
