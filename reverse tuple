@@ -1,0 +1,4 @@
+#python
+c=input()
+t=tuple(c)
+print(t[::-1])
