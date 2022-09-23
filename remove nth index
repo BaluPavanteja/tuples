@@ -1,9 +1,0 @@
-#python
-s=input()
-size=len(s)
-n=int(input())
-new=''
-for i in range(0,size):
-    if i!=n:
-        new=new+s[i]
-print(new)
