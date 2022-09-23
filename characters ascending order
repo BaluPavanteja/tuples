@@ -1,0 +1,5 @@
+#python
+c=input()
+c=sorted(c)
+new=''.join(c)
+print(new)
